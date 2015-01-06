@@ -52,7 +52,8 @@ reaches from simple transfer function plotting to stability analyses and
 system response computation on arbitrary system input.
 
 ![Schematic of a simple electronis circuit consisting of one resitor, impedance and capacitance](resources/FirstIntroExample.jpg "Simple example of a linear electronic circuit")
-Figure 1: Simple example of a linear electronic circuit
+
+*Figure 1: Simple example of a linear electronic circuit*
 
 Please refer to figure 1 as an example of how linNet works. This is a
 simple RLC element with a transfer function of second order. It can be
@@ -84,7 +85,8 @@ please refer to figure 2. More plots or plots with altered device values
 are a matter of single commands in Octave.
 
 ![Example of Bode plot as produced by Octave](resources/FirstIntroExample_OctaveOutput.jpg "Octave plot using the linNet generated LTI object")
-Figure 2: Octave plot using the linNet generated LTI object
+
+*Figure 2: Octave plot using the linNet generated LTI object*
 
 You will find the details of the usage of linNet, in particular
 installation, netlist syntax and Octave interface and an explanation of
