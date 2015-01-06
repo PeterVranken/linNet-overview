@@ -90,8 +90,9 @@ are a matter of single commands in Octave.
 
 You will find the details of the usage of linNet, in particular
 installation, netlist syntax and Octave interface and an explanation of
-the mathematical concept of the software in the user guide
-linNet-userGuide.pdf, located here for reference.
+the mathematical concept of the software in the [user guide
+linNet-userGuide.pdf](linNet-userGuide.pdf "linNet manual"), located here
+at GitHub for reference.
 
 The source code of linNet is hosted at Google Code; please see
 <http://code.google.com/p/linnet/>. There, you will also find download
