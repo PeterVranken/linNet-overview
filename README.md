@@ -53,6 +53,8 @@ system response computation on arbitrary system input.
 
 ![Schematic of a simple electronis circuit consisting of one resitor, impedance and capacitance](https://linnet.googlecode.com/svn/wiki/trunk/frontPage/FirstIntroExample.jpg "Simple example of a linear electronic circuit")
 
+![Schematic of a simple electronis circuit consisting of one resitor, impedance and capacitance](resources/FirstIntroExample.jpg "Simple example of a linear electronic circuit")
+
 Please refer to figure 1 at
 <https://linnet.googlecode.com/svn/wiki/trunk/frontPage/FirstIntroExample.jpg>
 as an example of how linNet works. This is a simple RLC element with a
