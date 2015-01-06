@@ -22,23 +22,27 @@ The computed formulas are printed to the console and to the application
 log file and can be used for further investigation or for publications or
 didactic purpose.
 
-====================================================
-|| Device                               || Symbol ||
-|| Resistor                             || R      ||
-|| Conductance                          || Y      ||
-|| Capacitor                            || C      ||
-|| Inductivity                          || L      ||
-|| Ideal operational amplifier (op-amp) || OP     ||
-|| Constant voltage source              || U      ||
-|| Voltage controlled voltage source    || U(U)   ||
-|| Current controlled voltage source    || U(I)   ||
-|| Constant current source              || I      ||
-|| Voltage controlled current source    || I(U)   ||
-|| Current controlled current source    || I(I)   ||
-|| Current probe (wire)                 || PI     ||
-====================================================
+<table>
+  <caption>Table 1: Supported linear devices</caption>
+  <tr>
+    <td><b>Device</b></th>
+    <td><b>Symbol</b></th>
+  </tr>
+  <tr><td>Device                              </td>  <td>Symbol</td></tr>
+  <tr><td>Resistor                            </td>  <td>R     </td></tr>
+  <tr><td>Conductance                         </td>  <td>Y     </td></tr>
+  <tr><td>Capacitor                           </td>  <td>C     </td></tr>
+  <tr><td>Inductivity                         </td>  <td>L     </td></tr>
+  <tr><td>Ideal operational amplifier (op-amp)</td>  <td>OP    </td></tr>
+  <tr><td>Constant voltage source             </td>  <td>U     </td></tr>
+  <tr><td>Voltage controlled voltage source   </td>  <td>U(U)  </td></tr>
+  <tr><td>Current controlled voltage source   </td>  <td>U(I)  </td></tr>
+  <tr><td>Constant current source             </td>  <td>I     </td></tr>
+  <tr><td>Voltage controlled current source   </td>  <td>I(U)  </td></tr>
+  <tr><td>Current controlled current source   </td>  <td>I(I)  </td></tr>
+  <tr><td>Current probe (wire)                </td>  <td>PI    </td></tr>
+</table>
 
-Table 1: Supported linear devices
 
 To make the application somewhat more attractive it exports the computed
 formulas as Octave or MATLAB script code, too. Numeric evaluation becomes
@@ -84,7 +88,7 @@ commands in Octave.
 You will find the details of the usage of linNet, in particular
 installation, netlist syntax and Octave interface and an explanation of
 the mathematical concept of the software in the user guide
-linNet-userGuide.pdf located here for reference.
+linNet-userGuide.pdf, located here for reference.
 
 The source code of linNet is hosted at Google Code; please see
 <http://code.google.com/p/linnet/>. There, you will also find download
