@@ -28,7 +28,6 @@ didactic purpose.
     <td><b>Device</b></th>
     <td><b>Symbol</b></th>
   </tr>
-  <tr><td>Device                              </td>  <td>Symbol</td></tr>
   <tr><td>Resistor                            </td>  <td>R     </td></tr>
   <tr><td>Conductance                         </td>  <td>Y     </td></tr>
   <tr><td>Capacitor                           </td>  <td>C     </td></tr>
@@ -58,25 +57,25 @@ as an example of how linNet works. This is a simple RLC element with a
 transfer function of second order. It can be represented by the following
 circuit netlist:
 
-> U Uin in  gnd
-> L L   in  K1
-> C C   K1  out
-> R R   out gnd
-> PLOT G U_out U_in
+    U Uin in  gnd
+    L L   in  K1
+    C C   K1  out
+    R R   out gnd
+    PLOT G U_out U_in
 
 Given this was put into file rlc.cnl, then we can run linNet:
 
-> linNet -o rlc.cnl
+    linNet -o rlc.cnl
 
 and would yield the output:
 
-> User-defined result G (Bode plot):
-> The dependency of U_out on U_in:
->   U_out(s) = N_U_out_U_in(s)/D_U_out_U_in(s) * U_in(s), with
->     N_U_out_U_in(s) = R*C * s
->     D_U_out_U_in(s) = L*C * s^2
->                       +R*C * s
->                       +1
+    User-defined result G (Bode plot):
+    The dependency of U_out on U_in:
+      U_out(s) = N_U_out_U_in(s)/D_U_out_U_in(s) * U_in(s), with
+        N_U_out_U_in(s) = R*C * s
+        D_U_out_U_in(s) = L*C * s^2
+                          +R*C * s
+                          +1
 
 Going to Octave and typing G to plot the transfer function (still using
 default device values) gives us a nice Bode plot of the transfer function;
