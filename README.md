@@ -94,11 +94,11 @@ the mathematical concept of the software in the user guide
 [linNet-userGuide.pdf](linNet-userGuide.pdf "linNet manual"), located here
 at GitHub for reference.
 
-The source code of linNet is hosted at Google Code; please see
-<http://code.google.com/p/linnet/>. There, you will also find download
-buttons for ready-to-use distributions with manual, samples and executable
-binaries for Windows and Linux. Mac users will have to compile the
-software, the makefile and source code files are prepared to do so.
+The source code of linNet is hosted at SourceForge; please see
+<https://sourceforge.net/projects/linnet-svn/>. There, you will also find
+download buttons for ready-to-use distributions with manual, samples and
+executable binaries for Windows and Linux. Mac users will have to compile
+the software, the makefile and source code files are prepared to do so.
 
 linNet means "linear network". It founds on a symbolic solver for
 linear equation systems. There's no way to model any non linear effects
